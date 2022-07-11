@@ -1,0 +1,58 @@
+.conteiner {
+  color: #282c34;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: #282c34;
+  padding: 20px;
+  border-radius: 10px 100px / 120px;
+}
+
+.link:hover {
+  background-color: #282c34;
+  color: aliceblue;
+}
+
+.form {
+  padding: 20px;
+  border-radius: 10px 100px / 120px;
+}
+.form:hover {
+  background-color: #282c34;
+  color: aliceblue;
+}
+.inputText {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  background-color: #f7f7f7;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid #cfd1d4;
+  cursor: pointer;
+  padding: 5px;
+  margin: 1px;
+  background-color: none;
+  color: #282c34;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn:active {
+  background-color: #febd2e;
+  color: aliceblue;
+}
